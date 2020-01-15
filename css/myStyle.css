@@ -3,6 +3,7 @@
     box-shadow: 5px 5px 5px rgb(78, 0, 59);
     border-radius: 110px;
 
+float: left;
 
 
 
@@ -11,7 +12,7 @@
 header {
     background-color: #FFFD87;
     height: 80px;
-    
+    text-align: center;
    float: right; 
     border-radius: 110px/, ;
     -moz-border-radius: 110px;
@@ -21,7 +22,7 @@ header {
 <nav> 
 </nav> 
 <main>  
-
+hr
 </Main>
 
 
