@@ -11,8 +11,8 @@
 header {
     background-color: #FFFD87;
     height: 80px;
-    display: block;
-   float: center; 
+    
+   float: right; 
     border-radius: 110px/, ;
     -moz-border-radius: 110px;
     -webkit-border-radius: 110px;   
