@@ -9,7 +9,7 @@ header {
     
     
     height: 80px;
-    justify-content:<content-position>left;
+    justify-content:<content-position>left>;
    display: flex;
    justify-content: space-between
    ;
@@ -23,6 +23,7 @@ border-radius: 110px/,;
 }
 
 nav {}
+
 
 ul {
     margin: 140px 0px 0px 140px;
