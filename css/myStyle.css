@@ -14,9 +14,11 @@ header {
       -webkit-border-radius: 110px;
 }
 
+
 footer {
     background-color: #FFFD87;
     height: 60px;
+   text-align: center; 
     border-radius: 60px;
     -moz-border-radius: 60px;
     -webkit-border-radius: 60px;
