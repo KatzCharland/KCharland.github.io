@@ -5,7 +5,9 @@
     float: right;
 }
 body {
-
+font-size: 16px;
+line-height: 1.5;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 header {
     background-color: #FFFD87;
@@ -19,8 +21,10 @@ header {
 }
 h1 {
 font-family: 'Roboto',
-sans-serif;
- 
+sans-serif; 
+}
+main {
+    color: beige;
 }
 
 footer {
