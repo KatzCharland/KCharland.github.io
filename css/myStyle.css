@@ -2,33 +2,19 @@
     width: 90px;
     box-shadow: 5px 5px 5px rgb(78, 0, 59);
     border-radius: 110px;
-
-float: inline-end;
-
-
-
+    float: right;
 }
 
 header {
     background-color: #FFFD87;
     height: 80px;
-    text-align: center;
-   float: right; 
-    border-radius: 110px/, ;
+    text-align: center border-radius: 110px/;
     -moz-border-radius: 110px;
-    -webkit-border-radius: 110px;   
+    -webkit-border-radius: 110px;
 }
 
-<nav> 
-</nav> 
-<main>  
-hr
-</Main>
-
-
-
 footer {
-    background-color: #FFFD87; 
+    background-color: #FFFD87;
     height: 60px;
     border-radius: 40px;
     -moz-border-radius: 40px;
