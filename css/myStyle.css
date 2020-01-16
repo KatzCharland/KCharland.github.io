@@ -8,15 +8,16 @@
 header {
     background-color: #FFFD87;
     height: 80px;
-    text-align: center border-radius: 110px/;
-    -moz-border-radius: 110px;
-    -webkit-border-radius: 110px;
+    text-align: center;
+     border-radius: 110px;
+      -moz-border-radius: 110px;
+      -webkit-border-radius: 110px;
 }
 
 footer {
     background-color: #FFFD87;
     height: 60px;
-    border-radius: 40px;
+    border-radius: 60px;
     -moz-border-radius: 40px;
     -webkit-border-radius: 40px;
 }
