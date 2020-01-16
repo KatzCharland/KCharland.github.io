@@ -18,6 +18,6 @@ footer {
     background-color: #FFFD87;
     height: 60px;
     border-radius: 60px;
-    -moz-border-radius: 40px;
-    -webkit-border-radius: 40px;
+    -moz-border-radius: 60px;
+    -webkit-border-radius: 60px;
 }
