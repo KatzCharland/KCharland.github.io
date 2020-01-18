@@ -10,7 +10,7 @@ function updateClock() {
                 now.getFullYear()].join(' ');
 
     // set the content of the element with the ID time to the formatted string
-     getElementById("currentDate").value = "Katz";//[date].join(' / ');
-
+     var elem = getElementById("currentDate"); //value = "Katz";//[date].join(' / ');
+elem.text="Katz";
    
 }
