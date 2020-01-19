@@ -7,7 +7,7 @@ function updateClock() {
 
 
    alert(myDate);
-   document.getElementById('currentDate').innerHTML = myDate;
+  // document.getElementById('currentDate').innerHTML = myDate;
   
 
 }
