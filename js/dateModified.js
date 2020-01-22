@@ -1,6 +1,4 @@
-function Update {
-var now = new Date();
-var myDate = String(now.getMonth() + 1).padStart(2, '0') + '/' + now.getDate() + '/' + now.getFullYear();
-
-document.getElementById('dateModified').innerHTML = myDate;
-} 
+var year = new Date();
+document.getElementById("year").innerText = year.getFullYear();
+var mod = moment(new Date(document.lastModified));
+document.getElementById("mod").innerText = mod.format('MM/DD/YYYY hh:mm:ss');
