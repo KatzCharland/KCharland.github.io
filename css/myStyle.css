@@ -1,18 +1,21 @@
 #profile {
     width: 90px;
+    margin: auto;
     box-shadow: 5px 5px 5px rgb(78, 0, 59);
     border-radius: 110px;
     float: right;
 }
 body {
-font-size: 16px;
+max-width: 760px;
+margin: auto;
+    font-size: 16px;
 line-height: 1.5;
 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 header {
     background-color: #FFFD87;
     max-width: 760px;
-
+    margin: auto;
     height: 80px;
     text-align: center;
      border-radius: 110px;
@@ -28,7 +31,9 @@ header {
 
 h1 {
 font-family: 'Roboto',
-sans-serif; 
+sans-serif;
+padding-top: 15px;
+text-align: center; 
 }
 
 footer {
