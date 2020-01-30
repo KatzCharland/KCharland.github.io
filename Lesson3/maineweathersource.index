@@ -5,14 +5,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Maine Weather Source</title>
+    <title>Weather Source</title>
     <meta name="description" content="Katz's Front-End Web Design and Development Class">
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display&7cRoboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="normalize/normalize.css" type="text/css">
-    <link rel="stylesheet" type="text/css" href="css/myStyle.css">
-
+    <link rel="stylesheet" type="text/css" href="css/small.css">
+    <link rel="stylesheet" type="text/css" href="css/medium.css">
+    <link rel="stylesheet" type="text/css" href="css/large.css">
 </head>
-<head>
-
-</head>
+<body>
+   <header>
+    <h1 id="Home">Regional Weather </h1>
+    <h2>Web Planning Document</h2>
+    </header>
+ <nav>
+        <img src="images/weatherlogo.jpeg" alt="logo" width="130">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="">Preston</a></li>
+            <li><a href="">Soda Springs</a></li>
+            <li><a href="">Fish Haven</a></li>
+            <li><a href="">Storm Center</a></li>
+            <li><a href="">Gallery</a></li>
+            <li><a href="color-scheme.html">Color Scheme</a></li>
+            <li><a href="target-audience.html">Target Audience</a></li>
+            <li><a href="typography.html">Typography</a></li>
+        </ul>
+        </nav>
+        <main>
+            <p>Preston Idaho</p>
+        </main>
+     <footer>
+        &copy; 2020 | Katherine Charland | Maine | <a href="https://www.byui.edu/online">BYUI Online Learning</a> |
+        <br>
+        Last Updated: <span id="currentDate"></span>
+        <script src="js/dateModified.js"></script>​
+    </footer>
+     </body>
 </html>
