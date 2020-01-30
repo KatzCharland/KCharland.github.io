@@ -1,0 +1,108 @@
+ <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Maine Weather Source</title>
+    <meta name="description" content="Katz's Front-End Web Design and Development Class">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display&7cRoboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="normalize/normalize.css" type="text/css">
+    <link rel="stylesheet" type="text/css" href="css/myStyle.css">
+
+</head>
+<head>
+<div class="wrapper">
+  <div class="sun"></div>
+  <div class="cloud">
+    <div class="cloud1">
+      <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+    </div>
+    <div class="cloud1 c_shadow">
+      <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+    </div>
+  </div>
+  
+  <div class="cloud_s">
+    <div class="cloud1">
+      <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+    </div>
+    <div class="cloud1 c_shadow">
+      <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+    </div>
+  </div>
+  
+  <div class="cloud_vs">
+    <div class="cloud1">
+      <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+    </div>
+    <div class="cloud1 c_shadow">
+      <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+    </div>
+  </div>
+  <div class="haze"></div>
+  <div class="haze_stripe"></div>
+  <div class="haze_stripe"></div>
+  <div class="haze_stripe"></div>
+  <div class="thunder"></div>
+  <div class="rain">
+     <ul>
+       <li></li>
+       <li></li>
+       <li></li>
+    </ul>
+  </div>
+  <div class="sleet">
+     <ul>
+       <li></li>
+       <li></li>
+       <li></li>
+    </ul>
+  </div>
+  <div class="text">
+    <ul>
+      <li>Mostly Sunny</li>
+      <li>Partly Sunny</li>
+      <li>Partly Cloudy</li>
+      <li>Mostly Cloudy</li>
+      <li>Cloudy</li>
+      <li>Hazy</li>
+      <li>Thunderstorm</li>
+      <li>Rain</li>
+      <li>Sleet</li>
+    </ul>
+  </div>
+</div>
+</head>
+</html>
