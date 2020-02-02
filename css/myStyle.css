@@ -10,7 +10,7 @@ max-width: 760px;
 margin: auto;
     font-size: 16px;
 line-height: 1.5;
-font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-family: 'Playfair Display', serif;
 }
 header {
     background-color: #FFFD87;
@@ -30,8 +30,7 @@ header {
 
 
 h1 {
-font-family: 'Roboto',
-sans-serif;
+font-family: 'Francois One',sans-serif;
 padding-top: 15px;
 text-align: center; 
 }
@@ -40,8 +39,7 @@ footer {
     background-color: #FFFD87;
      max-width: 760px;
     height: 70px;
-font-family: 'Playfair Display',
-serif;
+font-family: 'Francois One', sans-serif;
    text-align: center;
     border-radius: 60px;
     -moz-border-radius: 60px;
