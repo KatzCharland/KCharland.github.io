@@ -10,8 +10,9 @@ header {
     align-content: center;
     justify_content: center;
     background-color: rgb(14, 190, 152);
-
+        }
     .logo {
         padding: 1rem 0.5 1rem 1rem;
+        width: 20px;
     }
 }
