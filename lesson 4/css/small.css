@@ -1,0 +1,17 @@
+body {
+    background-color: rgb(224,224,224);
+}
+
+header. footer {
+    color:rgb(14, 190, 152);
+
+header {
+    display: flex;
+    align-content: center;
+    justify_content: center;
+    background-color: rgb(14, 190, 152);
+
+    .logo {
+        padding: 1rem 0.5 1rem 1rem;
+    }
+}

@@ -2,12 +2,12 @@
 <html lang="en">
 
 <head>
-    <<meta charset="UTF-8">
+    <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maxium-scale=1">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>Preston Idaho's Weather Source</title>
         <meta name="description" content="Preston Idaho's Up To Date Weather Source">
-        >        <link href="https://fonts.googleapis.com/css?family=Francois+One|Open+Sans|Playfair+Display&display=swap"
+              <link href="https://fonts.googleapis.com/css?family=Francois+One|Open+Sans|Playfair+Display&display=swap"
             rel="stylesheet">
         <link rel="stylesheet" href="normalize/normalize.css" type="text/css">
         <link rel="stylesheet" type="text/css" href="css/small.css">
@@ -15,24 +15,39 @@
         <link rel="stylesheet" type="text/css" href="css/large.css">
 </head>
 <header>
+    <img src=" images/weatherlogo.png" alt="Logo" width="120">
+   
+    
+
     <div>
-        <img src=" images/weatherlogo.png" alt="Logo">
-
-        <section>
-            <h1>Idaho's Weather Source</h1>
-            <h3>Up To Date Accurate Weather</h3>
-        </section>
+       <h1 id="siteName" class="headerText">Idaho's Weather Source</h1> 
+    
+       <section id="slogan" class="headerText"><h3>Weather Coming Your Way</h3></section>
     </div>
-</header>
-<nav class="clearfix">
-    <button onclick="toggleMenu()"> </button>
+</header
+>
+<nav>
+    <button onclick="toggleMenu()">  Menu</button>
+    <ul id="navMenu"> 
+    <li>
+        <a href>"Home"</a></li>
+    <li>
+        <a href>"Preston"</a></li>
+    <li>
+        <a href>"Soda Springs</a></li>
+    <li>
+         <a href>"Fish Haven"</a> </li>
+    <li>
+          <a href>"Storm Center"</a></li>
+    <li>
+       <a href>"Gallery"</a></li>
 
+</ul>
 </nav>
 
 <body>
-
-
     <main>
+        <h2>Preston</h2>
         <div id="Hero">Weather Summary</div>
         <div id="Forecast">5 Day Forecast</div>
         <div id="Artticle">Article</div>
@@ -45,12 +60,8 @@
         Last Updated: <span id="currentDate"></span>
         <script src="js/dateModified.js"></script>​
     </footer>
-    <script>
-        src = js / toggleMenu.js
-    </script>
-    <script>
-        type = "text/javascript
-    </script>
+    <script src="js/toggleMenu.js"></script>
+    
 </body>
 <loom-container id="lo-engage-ext-container"></loom-container>
 
