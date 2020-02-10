@@ -3,46 +3,61 @@
 
 <head>
     <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, maxium-scale=1">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Preston Idaho's Weather Source</title>
-        <meta name="description" content="Preston Idaho's Up To Date Weather Source">
-              <link href="https://fonts.googleapis.com/css?family=Francois+One|Open+Sans|Playfair+Display&display=swap"
-            rel="stylesheet">
-        <link rel="stylesheet" href="normalize/normalize.css" type="text/css">
-        <link rel="stylesheet" type="text/css" href="css/small.css">
-        <link rel="stylesheet" type="text/css" href="css/medium.css">
-        <link rel="stylesheet" type="text/css" href="css/large.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maxium-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Preston Idaho's Weather Source</title>
+    <meta name="description" content="Preston Idaho's Up To Date Weather Source">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Francois+One|Open+Sans|Playfair+Display&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="normalize/normalize.css" type="text/css">
+    <link rel="stylesheet" type="text/css" href="css/small.css">
+    <link rel="stylesheet" type="text/css" href="css/medium.css">
+    <link rel="stylesheet" type="text/css" href="css/large.css">
 </head>
 <header>
     <img src=" images/weatherlogo.png" alt="Logo" width="120">
-   
-    
+
+<!-- Top Navigation Menu -->
+<div class="topnav">
+    <a href="#home" class="active">Logo</a>
+    <!-- Navigation links (hidden by default) -->
+    <div id="myLinks">
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+        <a href="#about">About</a>
+    </div>
+    <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+    </a>
+</div>
 
     <div>
-       <h1 id="siteName" class="headerText">Idaho's Weather Source</h1> 
-    
-       <section id="slogan" class="headerText"><h3>Weather Coming Your Way</h3></section>
-    </div>
-</header
->
-<nav>
-    <button onclick="toggleMenu()">  Menu</button>
-    <ul id="navMenu"> 
-    <li>
-        <a href>"Home"</a></li>
-    <li>
-        <a href>"Preston"</a></li>
-    <li>
-        <a href>"Soda Springs</a></li>
-    <li>
-         <a href>"Fish Haven"</a> </li>
-    <li>
-          <a href>"Storm Center"</a></li>
-    <li>
-       <a href>"Gallery"</a></li>
+        <h1 id="siteName" class="headerText">Idaho's Weather Source</h1>
 
-</ul>
+        <section id="slogan" class="headerText">
+            <h3>Weather Coming Your Way</h3>
+        </section>
+    </div>
+</header>
+<nav>
+    <button onclick="toggleMenu()"> Menu</button>
+    <ul id="navMenu">
+        <li>
+            <a href>"Home"</a></li>
+        <li>
+            <a href>"Preston"</a></li>
+        <li>
+            <a href>"Soda Springs</a></li>
+        <li>
+            <a href>"Fish Haven"</a> </li>
+        <li>
+            <a href>"Storm Center"</a></li>
+        <li>
+            <a href>"Gallery"</a></li>
+
+    </ul>
 </nav>
 
 <body>
@@ -61,7 +76,7 @@
         <script src="js/dateModified.js"></script>​
     </footer>
     <script src="js/toggleMenu.js"></script>
-    
+
 </body>
 <loom-container id="lo-engage-ext-container"></loom-container>
 
